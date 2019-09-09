@@ -60,8 +60,8 @@
         <!--You only need one of the two, don't put both. Spigot is recommended.-->
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.14.2-R0.1-SNAPSHOT</version>
+            <artifactId>spigot-api</artifactId>
+            <version>1.14.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <!-- PluginConstructorAPI -->
