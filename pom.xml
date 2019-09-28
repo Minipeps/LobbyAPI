@@ -57,12 +57,12 @@
     </build>
     <dependencies>
         <!--Spigot API-->
-        <!--You only need one of the two, don't put both. Spigot is recommended.-->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.14.4-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <version>1.14.4</version>
+            <systemPath>${project.basedir}/bin/spigot-1.14.4.jar</systemPath>
+            <scope>system</scope>
         </dependency>
         <!-- PluginConstructorAPI -->
         <dependency>
